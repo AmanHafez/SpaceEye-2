@@ -7,8 +7,39 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SunView.h"
+#import "MercurryView.h"
+#import "VenusView.h"
+#import "EarthandMoonView.h"
+#import "MarsandMoonsView.h"
+#import "JupiterView.h"
+#import "SaturnView.h"
+#import "UranusView.h"
+#import "NeptuneView.h"
+#import "PlutoView.h"
+#import "FLAnimatedImageView.h"
 
 @interface ViewController : UIViewController
+
+{
+    UIButton *sun;
+    UIButton *mercurry;
+    UIButton *venus;
+    UIButton *earth;
+    UIButton *mars;
+    UIButton *jupiter;
+    UIButton *saturn;
+    UIButton *uranus;
+    UIButton *neptune;
+    UIButton *pluto;
+    UIButton *comets;
+    
+        
+}
+
+
+
+
 
 
 @end
