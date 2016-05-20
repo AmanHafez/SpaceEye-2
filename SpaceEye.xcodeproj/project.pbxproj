@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D08C431CEFC2CF00FBC3E6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C411CEFC2CF00FBC3E6 /* Model.xcdatamodeld */; };
 		0403E67A1C56B6C000E28F0E /* stars2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0403E6781C56B6C000E28F0E /* stars2.gif */; };
 		0403E6841C56D06A00E28F0E /* AsyncImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403E6831C56D06A00E28F0E /* AsyncImageview.m */; };
 		040AFA151C74F61A0066E7A5 /* Rotating_earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D08C421CEFC2CF00FBC3E6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		0403E6781C56B6C000E28F0E /* stars2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stars2.gif; sourceTree = "<group>"; };
 		0403E6821C56D04F00E28F0E /* AsyncImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AsyncImageView.h; path = ../AsyncImageView.h; sourceTree = "<group>"; };
 		0403E6831C56D06A00E28F0E /* AsyncImageview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncImageview.m; path = ../AsyncImageview.m; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			children = (
 				04704F981C2EC2C000D13F09 /* Info.plist */,
 				04704F991C2EC2C000D13F09 /* main.m */,
+				02D08C411CEFC2CF00FBC3E6 /* Model.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				041E9C9E1C7DE66500B00067 /* NeptuneView.m in Sources */,
 				041E9C921C7DE44500B00067 /* VenusView.m in Sources */,
 				0419F01F1CA5EB22000993D7 /* FLAnimatedImage.m in Sources */,
+				02D08C431CEFC2CF00FBC3E6 /* Model.xcdatamodeld in Sources */,
 				041E9C981C7DE5A600B00067 /* SaturnView.m in Sources */,
 				040AFA181C7507A80066E7A5 /* MarsandMoonsView.m in Sources */,
 				041E9C951C7DE51800B00067 /* JupiterView.m in Sources */,
@@ -567,6 +571,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02D08C411CEFC2CF00FBC3E6 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02D08C421CEFC2CF00FBC3E6 /* Model.xcdatamodel */,
+			);
+			currentVersion = 02D08C421CEFC2CF00FBC3E6 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04704F8C1C2EC2C000D13F09 /* Project object */;
 }
