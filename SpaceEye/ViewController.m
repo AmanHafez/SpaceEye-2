@@ -188,7 +188,7 @@
     rotationAnimation.duration = 15;
     rotationAnimation.cumulative = YES;
     rotationAnimation.repeatCount =  HUGE_VALF;
-    
+    rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     [planet.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
 }
 
