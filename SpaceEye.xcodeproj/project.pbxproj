@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		02D08C431CEFC2CF00FBC3E6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C411CEFC2CF00FBC3E6 /* Model.xcdatamodeld */; };
+		02D08C521CEFD40800FBC3E6 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C511CEFD40800FBC3E6 /* Planet.m */; };
+		02D08C561CEFD6B700FBC3E6 /* Satallite.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C551CEFD6B700FBC3E6 /* Satallite.m */; };
+		02D08C591CEFD8F000FBC3E6 /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C581CEFD8F000FBC3E6 /* Star.m */; };
 		0403E67A1C56B6C000E28F0E /* stars2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0403E6781C56B6C000E28F0E /* stars2.gif */; };
 		0403E6841C56D06A00E28F0E /* AsyncImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403E6831C56D06A00E28F0E /* AsyncImageview.m */; };
 		040AFA151C74F61A0066E7A5 /* Rotating_earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */; };
@@ -54,6 +57,12 @@
 
 /* Begin PBXFileReference section */
 		02D08C421CEFC2CF00FBC3E6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		02D08C501CEFD40800FBC3E6 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		02D08C511CEFD40800FBC3E6 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		02D08C541CEFD6B700FBC3E6 /* Satallite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Satallite.h; sourceTree = "<group>"; };
+		02D08C551CEFD6B700FBC3E6 /* Satallite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Satallite.m; sourceTree = "<group>"; };
+		02D08C571CEFD8F000FBC3E6 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
+		02D08C581CEFD8F000FBC3E6 /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
 		0403E6781C56B6C000E28F0E /* stars2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stars2.gif; sourceTree = "<group>"; };
 		0403E6821C56D04F00E28F0E /* AsyncImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AsyncImageView.h; path = ../AsyncImageView.h; sourceTree = "<group>"; };
 		0403E6831C56D06A00E28F0E /* AsyncImageview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncImageview.m; path = ../AsyncImageview.m; sourceTree = "<group>"; };
@@ -125,6 +134,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D08C531CEFD68B00FBC3E6 /* Custm classes */ = {
+			isa = PBXGroup;
+			children = (
+				02D08C501CEFD40800FBC3E6 /* Planet.h */,
+				02D08C511CEFD40800FBC3E6 /* Planet.m */,
+				02D08C541CEFD6B700FBC3E6 /* Satallite.h */,
+				02D08C551CEFD6B700FBC3E6 /* Satallite.m */,
+				02D08C571CEFD8F000FBC3E6 /* Star.h */,
+				02D08C581CEFD8F000FBC3E6 /* Star.m */,
+			);
+			name = "Custm classes";
+			sourceTree = "<group>";
+		};
 		0403E6771C56B6A100E28F0E /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +169,7 @@
 		04704F8B1C2EC2C000D13F09 = {
 			isa = PBXGroup;
 			children = (
+				02D08C531CEFD68B00FBC3E6 /* Custm classes */,
 				0419F0201CA5EC2B000993D7 /* FLAnimatedImageView.h */,
 				0419F0211CA5EC2B000993D7 /* FLAnimatedImageView.m */,
 				0419F01D1CA5EB22000993D7 /* FLAnimatedImage.h */,
@@ -345,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04704FA01C2EC2C000D13F09 /* ViewController.m in Sources */,
+				02D08C591CEFD8F000FBC3E6 /* Star.m in Sources */,
 				041E9C8F1C7DD58500B00067 /* MercurryView.m in Sources */,
 				041E9C9E1C7DE66500B00067 /* NeptuneView.m in Sources */,
 				041E9C921C7DE44500B00067 /* VenusView.m in Sources */,
@@ -358,8 +382,10 @@
 				041E9CA11C7DE6A500B00067 /* PlutoView.m in Sources */,
 				041E9C9B1C7DE62000B00067 /* UranusView.m in Sources */,
 				04704F9A1C2EC2C000D13F09 /* main.m in Sources */,
+				02D08C521CEFD40800FBC3E6 /* Planet.m in Sources */,
 				041E9C8C1C7DD42200B00067 /* SunView.m in Sources */,
 				0419F0221CA5EC2B000993D7 /* FLAnimatedImageView.m in Sources */,
+				02D08C561CEFD6B700FBC3E6 /* Satallite.m in Sources */,
 				0403E6841C56D06A00E28F0E /* AsyncImageview.m in Sources */,
 				041E9C831C7A417700B00067 /* MoonView.m in Sources */,
 			);
