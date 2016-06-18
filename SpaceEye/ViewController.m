@@ -23,20 +23,20 @@
     self.view.backgroundColor = [UIColor blackColor];
     
     //creating the planets and other objects as buttons
-    SunView *sun = [[SunView alloc] initWithFrame:CGRectMake(0, 0, 25, 22)];
+     sun = [[SunView alloc] initWithFrame:CGRectMake(0, 0, 25, 22)];
     sun.center = CGPointMake(self.view.frame.size.width/2-10, self.view.frame.size.height/2+5);
     [self.view addSubview:sun];
     
     
     //Mercurry's Orbit:
-    MercurryView *mercurry = [[MercurryView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+    mercurry = [[MercurryView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
     mercurry.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview:mercurry];
     [self PlanetRotation:mercurry speed:0.241];
     mercurry.layer.anchorPoint = CGPointMake(4,1);
     
     //Venus's Orbit:a
-    VenusView *venus = [[VenusView alloc] initWithFrame:CGRectMake(0, 0, 20, 12)];
+     venus = [[VenusView alloc] initWithFrame:CGRectMake(0, 0, 20, 12)];
     venus.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview:venus];
     [self PlanetRotation:venus speed:0.615];
@@ -44,7 +44,7 @@
     
     
     //Earth's Orbit:
-    EarthandMoonView *earth = [[EarthandMoonView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
+     earth = [[EarthandMoonView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
     earth.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview:earth];
     [self PlanetRotation:earth speed:1];
@@ -52,7 +52,7 @@
 
    
     //Mars's Orbit:
-    MarsView *mars = [[MarsView alloc] initWithFrame:CGRectMake(0, 0, 15, 10)];
+    mars = [[MarsView alloc] initWithFrame:CGRectMake(0, 0, 15, 10)];
     mars.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview:mars];
     [self PlanetRotation:mars speed:1.880];
@@ -60,7 +60,7 @@
     
     
     //Jupiter's Orbit:
-    JupiterView *jupiter = [[JupiterView alloc] initWithFrame:CGRectMake(0, 0, 15, 10)];
+    jupiter = [[JupiterView alloc] initWithFrame:CGRectMake(0, 0, 15, 10)];
     jupiter.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview:jupiter];
     [self PlanetRotation:jupiter speed:1.867];
@@ -68,7 +68,7 @@
 
 
     //Saturn's Orbit:
-    SaturnView *saturn = [[SaturnView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
+    saturn = [[SaturnView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
     saturn.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview:saturn];
     [self PlanetRotation:saturn speed:29.461];
@@ -76,14 +76,14 @@
     
     
     //Uranus Orbit:
-    UranusView *uranus = [[UranusView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
+    uranus = [[UranusView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
     uranus.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview:uranus];
     [self PlanetRotation:uranus speed:84.030];
     uranus.layer.anchorPoint = CGPointMake(24,15);// changing the posisition and distance of the planets in orbit around the sun
     
     //Neptune's Orbit:
-    NeptuneView *neptune = [[NeptuneView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
+    neptune = [[NeptuneView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
     neptune.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview:neptune];
     [self PlanetRotation:neptune speed:164.815];
@@ -91,7 +91,7 @@
     
     
     //Pluto's Orbit:
-        PlutoView *pluto = [[PlutoView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
+    pluto = [[PlutoView alloc] initWithFrame:CGRectMake(0, 0, 15, 15)];
     pluto.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview: pluto];
     pluto.layer.anchorPoint = CGPointMake(0.5, 28);// changing the posisition and distance of the planets in orbit around the sun

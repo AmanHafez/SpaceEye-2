@@ -4,24 +4,5 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
-    <scenes>
-        <!--View Controller-->
-        <scene sceneID="mJP-Xr-l0W">
-            <objects>
-                <viewController id="KQk-zX-oRF" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="abh-r8-OtZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="rWy-Gq-j99"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="u3v-5F-2NJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bNu-eB-96q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="258" y="198"/>
-        </scene>
-    </scenes>
+    <scenes/>
 </document>
