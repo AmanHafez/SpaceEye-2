@@ -18,6 +18,7 @@
 #import "NeptuneView.h"
 #import "PlutoView.h"
 #import "FLAnimatedImageView.h"
+#import "SecondViewController.h"
 
 @interface ViewController : UIViewController
 
@@ -32,7 +33,8 @@
     UIButton *uranus;
     UIButton *neptune;
     UIButton *pluto;
-    UIButton *comets;
+    UIButton *Pause;
+    UIButton *Predict;
     
         
 }

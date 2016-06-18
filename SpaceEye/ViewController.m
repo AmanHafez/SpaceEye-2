@@ -95,9 +95,14 @@
     pluto.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
     [self.view addSubview: pluto];
     pluto.layer.anchorPoint = CGPointMake(0.5, 28);// changing the posisition and distance of the planets in orbit around the sun
-    ;
     
-
+    
+    //PAUSE BUTTON!!
+    Pause = [UIButton buttonWithType:UIButtonTypeCustom];
+    [Pause addTarget:self action:@selector(pauseAnimation) forControlEvents:UIControlEventTouchUpInside];
+    [Pause setTitle:@"PAUSE" forState:UIControlStateNormal];
+    Pause.frame = CGRectMake(0.5, 0.5, 10, 10);
+    [self.view addSubview:Pause];
 
     
     //Differentiating between each planet when being pressed
@@ -179,7 +184,6 @@
 }
 
 
-
 -(void)PlanetRotation:(UIView*)planet speed:(float)period
 {
     CABasicAnimation* rotationAnimation;
@@ -190,6 +194,23 @@
     rotationAnimation.repeatCount =  HUGE_VALF;
     rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     [planet.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
+}
+
+
+-(void)pauseAnimation
+{
+    
+    CALayer *clayer = self.view.layer;
+    
+    CFTimeInterval pausedTime = [clayer convertTime:CACurrentMediaTime() fromLayer:nil];
+    
+    clayer.speed = 0.0;
+    
+    clayer.timeOffset = pausedTime;
+    
+    SecondViewController *vc = [[SecondViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 

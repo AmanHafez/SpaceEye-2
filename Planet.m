@@ -9,6 +9,7 @@
 #import "Planet.h"
 
 @implementation Planet
+
 @dynamic Name;
 @dynamic Diameter;
 @dynamic Distance;

@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import <CoreData/CoreData.h>
+//#import <RestKit/CoreData.h>
+//#import <RestKit/ObjectMapping.h>
+
 
 @interface AppDelegate ()
 
@@ -17,6 +21,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+  // RKObjectManager *objectManager = [RKObjectManager managerWithBaseURL:[NSURL URLWithString:@"http://grid.no-ip.biz/grid"]];
+    
+    
+    
+    
     return YES;
 }
 

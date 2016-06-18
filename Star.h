@@ -16,4 +16,5 @@
 @property (nonatomic,strong) NSString * Name;
 @property (nonatomic, strong) NSString * Temp;
 @property (nonatomic, strong) NSArray * Planets;
+
 @end
