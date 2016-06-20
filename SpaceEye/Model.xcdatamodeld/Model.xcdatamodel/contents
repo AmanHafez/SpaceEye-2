@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="Planet" representedClassName="Planet" syncable="YES">
+        <attribute name="diameter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="generalInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gravity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numOfMoon" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="period" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="planetID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="starId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="associatedSatallite" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Satallite" inverseName="associatedPlanet" inverseEntity="Satallite" syncable="YES"/>
+        <relationship name="associatedStar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Star" inverseName="associatedPlanet" inverseEntity="Star" syncable="YES"/>
+    </entity>
+    <entity name="Satallite" representedClassName="Satallite" syncable="YES">
+        <attribute name="diameter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="satalliteID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="solarSystem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="associatedPlanet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Planet" inverseName="associatedSatallite" inverseEntity="Planet" syncable="YES"/>
+    </entity>
+    <entity name="Star" representedClassName="Star" syncable="YES">
+        <attribute name="diameter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="generalInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="planetID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="starID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="associatedPlanet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Planet" inverseName="associatedStar" inverseEntity="Planet" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Planet" positionX="-63" positionY="-18" width="128" height="270"/>
+        <element name="Satallite" positionX="-45" positionY="99" width="128" height="165"/>
+        <element name="Star" positionX="-63" positionY="72" width="128" height="150"/>
+    </elements>
+</model>
