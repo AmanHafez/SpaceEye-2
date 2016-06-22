@@ -100,7 +100,7 @@
     Pause = [UIButton buttonWithType:UIButtonTypeCustom];
     [Pause addTarget:self action:@selector(pauseAnimation) forControlEvents:UIControlEventTouchUpInside];
     [Pause setTitle:@"PAUSE" forState:UIControlStateNormal];
-    Pause.frame = CGRectMake(550, 5.5, 100, 20);
+    Pause.frame = CGRectMake(450, 5.5, 100, 20);
     [self.view addSubview:Pause];
     
     
@@ -108,9 +108,16 @@
     Resume = [UIButton buttonWithType:UIButtonTypeCustom];
     [Resume addTarget:self action:@selector(resumeAnimation) forControlEvents:UIControlEventTouchUpInside];
     [Resume setTitle:@"RESUME" forState:UIControlStateNormal];
-    Resume.frame = CGRectMake(630, 5.5, 100, 20);
+    Resume.frame = CGRectMake(530, 5.5, 100, 20);
     [self.view addSubview:Resume];
-
+    
+    
+    //Resume BUTTON!!
+    Predict = [UIButton buttonWithType:UIButtonTypeCustom];
+    [Predict addTarget:self action:@selector(PredictPosition) forControlEvents:UIControlEventTouchUpInside];
+    [Predict setTitle:@"PREDICT" forState:UIControlStateNormal];
+    Predict.frame = CGRectMake(630, 5.5, 100, 20);
+    [self.view addSubview:Predict];
 
     
     //Differentiating between each planet when being pressed
@@ -232,6 +239,11 @@
     clayer.beginTime = 0.0f;
     CFTimeInterval time_since_pause = [clayer convertTime:CACurrentMediaTime() fromLayer:nil] - paused_time;
     clayer.beginTime = time_since_pause;
+}
+
+-(void)PredictPosition
+{
+     NSLog(@"this is PREDICTION");
 }
 
 
