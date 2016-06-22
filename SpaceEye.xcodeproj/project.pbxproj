@@ -37,6 +37,7 @@
 		041E9C9E1C7DE66500B00067 /* NeptuneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9C9D1C7DE66500B00067 /* NeptuneView.m */; };
 		041E9CA11C7DE6A500B00067 /* PlutoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9CA01C7DE6A500B00067 /* PlutoView.m */; };
 		046753CB1D18626200594118 /* SeondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046753CA1D18626200594118 /* SeondViewController.m */; };
+		046754101D19697900594118 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467540F1D19697900594118 /* ThirdViewController.m */; };
 		04704F9A1C2EC2C000D13F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04704F991C2EC2C000D13F09 /* main.m */; };
 		04704F9D1C2EC2C000D13F09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04704F9C1C2EC2C000D13F09 /* AppDelegate.m */; };
 		04704FA01C2EC2C000D13F09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04704F9F1C2EC2C000D13F09 /* ViewController.m */; };
@@ -105,6 +106,8 @@
 		041E9CA01C7DE6A500B00067 /* PlutoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlutoView.m; sourceTree = "<group>"; };
 		046753C91D18626200594118 /* SeondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeondViewController.h; sourceTree = "<group>"; };
 		046753CA1D18626200594118 /* SeondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeondViewController.m; sourceTree = "<group>"; };
+		0467540E1D19697900594118 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0467540F1D19697900594118 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		04704F941C2EC2C000D13F09 /* SpaceEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04704F981C2EC2C000D13F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04704F991C2EC2C000D13F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -226,6 +229,8 @@
 				04704F9F1C2EC2C000D13F09 /* ViewController.m */,
 				046753C91D18626200594118 /* SeondViewController.h */,
 				046753CA1D18626200594118 /* SeondViewController.m */,
+				0467540E1D19697900594118 /* ThirdViewController.h */,
+				0467540F1D19697900594118 /* ThirdViewController.m */,
 				04704FA11C2EC2C000D13F09 /* Main.storyboard */,
 				04EC0A621C6C844E0046D1DD /* images.xcassets */,
 				04704F971C2EC2C000D13F09 /* Supporting Files */,
@@ -374,6 +379,7 @@
 			files = (
 				04704FA01C2EC2C000D13F09 /* ViewController.m in Sources */,
 				02D08C591CEFD8F000FBC3E6 /* Star.m in Sources */,
+				046754101D19697900594118 /* ThirdViewController.m in Sources */,
 				041E9C8F1C7DD58500B00067 /* MercurryView.m in Sources */,
 				041E9C9E1C7DE66500B00067 /* NeptuneView.m in Sources */,
 				041E9C921C7DE44500B00067 /* VenusView.m in Sources */,

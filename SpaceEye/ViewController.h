@@ -35,13 +35,10 @@
     UIButton *pluto;
     UIButton *comets;
     UIButton *Pause;
+    UIButton *Resume;
     UIButton *Predict;
         
 }
-
-
-
-
 
 
 @end

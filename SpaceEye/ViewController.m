@@ -103,6 +103,13 @@
     Pause.frame = CGRectMake(550, 5.5, 100, 20);
     [self.view addSubview:Pause];
     
+    
+    //Resume BUTTON!!
+    Resume = [UIButton buttonWithType:UIButtonTypeCustom];
+    [Resume addTarget:self action:@selector(resumeAnimation) forControlEvents:UIControlEventTouchUpInside];
+    [Resume setTitle:@"RESUME" forState:UIControlStateNormal];
+    Resume.frame = CGRectMake(630, 5.5, 100, 20);
+    [self.view addSubview:Resume];
 
 
     
@@ -212,6 +219,19 @@
     SeondViewController *svc = [[SeondViewController alloc] init];
     [self.navigationController pushViewController:svc animated:YES];
     
+}
+
+- (void)resumeAnimation
+{
+    
+    CALayer *clayer = self.view.layer;
+    
+    CFTimeInterval paused_time = [clayer timeOffset];
+    clayer.speed = 1.0f;
+    clayer.timeOffset = 0.0f;
+    clayer.beginTime = 0.0f;
+    CFTimeInterval time_since_pause = [clayer convertTime:CACurrentMediaTime() fromLayer:nil] - paused_time;
+    clayer.beginTime = time_since_pause;
 }
 
 
