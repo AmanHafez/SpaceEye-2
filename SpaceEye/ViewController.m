@@ -216,29 +216,23 @@
 {
     
     CALayer *clayer = self.view.layer;
-    
     CFTimeInterval pausedTime = [clayer convertTime:CACurrentMediaTime() fromLayer:nil];
-    
     clayer.speed = 0.0;
-    
     clayer.timeOffset = pausedTime;
-    
-    SeondViewController *svc = [[SeondViewController alloc] init];
-    [self.navigationController pushViewController:svc animated:YES];
-    
 }
 
 - (void)resumeAnimation
 {
     
     CALayer *clayer = self.view.layer;
-    
+    if(clayer.timeOffset != 0) {
     CFTimeInterval paused_time = [clayer timeOffset];
     clayer.speed = 1.0f;
     clayer.timeOffset = 0.0f;
     clayer.beginTime = 0.0f;
     CFTimeInterval time_since_pause = [clayer convertTime:CACurrentMediaTime() fromLayer:nil] - paused_time;
-    clayer.beginTime = time_since_pause;
+        clayer.beginTime = time_since_pause;
+    }
 }
 
 -(void)PredictPosition
