@@ -18,6 +18,7 @@
 #import "NeptuneView.h"
 #import "PlutoView.h"
 #import "FLAnimatedImageView.h"
+#import "FLAnimatedImage.h"
 #import "SeondViewController.h"
 
 @interface ViewController : UIViewController

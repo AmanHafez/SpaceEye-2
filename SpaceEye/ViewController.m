@@ -22,6 +22,13 @@
   
     self.view.backgroundColor = [UIColor blackColor];
     
+    FLAnimatedImageView *background = [[FLAnimatedImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    NSURL *fileURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"stars2-2.gif" ofType:nil]];
+    FLAnimatedImage *image = [FLAnimatedImage animatedImageWithGIFData:[NSData dataWithContentsOfURL:fileURL]];
+    
+    background.animatedImage = image;
+    [self.view addSubview:background];
+    
     //creating the planets and other objects as buttons
     sun = [[SunView alloc] initWithFrame:CGRectMake(0, 0, 25, 22)];
     sun.center = CGPointMake(self.view.frame.size.width/2-10, self.view.frame.size.height/2+5);
@@ -104,7 +111,7 @@
     [self.view addSubview:Pause];
     
     
-    //Resume BUTTON!!
+    //RESUME BUTTON!!
     Resume = [UIButton buttonWithType:UIButtonTypeCustom];
     [Resume addTarget:self action:@selector(resumeAnimation) forControlEvents:UIControlEventTouchUpInside];
     [Resume setTitle:@"RESUME" forState:UIControlStateNormal];
@@ -112,7 +119,7 @@
     [self.view addSubview:Resume];
     
     
-    //Resume BUTTON!!
+    //PREDICT BUTTON!!
     Predict = [UIButton buttonWithType:UIButtonTypeCustom];
     [Predict addTarget:self action:@selector(PredictPosition) forControlEvents:UIControlEventTouchUpInside];
     [Predict setTitle:@"PREDICT" forState:UIControlStateNormal];
@@ -208,7 +215,7 @@
     rotationAnimation.duration = 15;
     rotationAnimation.cumulative = YES;
     rotationAnimation.repeatCount =  HUGE_VALF;
-    rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    //rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     [planet.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
 }
 
@@ -237,7 +244,8 @@
 
 -(void)PredictPosition
 {
-     NSLog(@"this is PREDICTION");
+
+
 }
 
 

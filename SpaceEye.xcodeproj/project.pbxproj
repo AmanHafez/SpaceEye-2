@@ -15,6 +15,7 @@
 		0403E6841C56D06A00E28F0E /* AsyncImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403E6831C56D06A00E28F0E /* AsyncImageview.m */; };
 		040AFA151C74F61A0066E7A5 /* Rotating_earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */; };
 		040AFA181C7507A80066E7A5 /* MarsandMoonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040AFA171C7507A80066E7A5 /* MarsandMoonsView.m */; };
+		0416E6831D259786001B50D7 /* stars2-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0416E6821D259786001B50D7 /* stars2-2.gif */; };
 		0419F00C1CA5BF4E000993D7 /* Saturn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0419F00B1CA5BF4E000993D7 /* Saturn.gif */; };
 		0419F00E1CA5BF51000993D7 /* moon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0419F00D1CA5BF51000993D7 /* moon.gif */; };
 		0419F0101CA5BF55000993D7 /* mercury.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0419F00F1CA5BF55000993D7 /* mercury.gif */; };
@@ -71,6 +72,7 @@
 		040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rotating_earth.gif; sourceTree = "<group>"; };
 		040AFA161C7507A80066E7A5 /* MarsandMoonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsandMoonsView.h; sourceTree = "<group>"; };
 		040AFA171C7507A80066E7A5 /* MarsandMoonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsandMoonsView.m; sourceTree = "<group>"; };
+		0416E6821D259786001B50D7 /* stars2-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "stars2-2.gif"; path = "../../stars2-2.gif"; sourceTree = "<group>"; };
 		0419F00B1CA5BF4E000993D7 /* Saturn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Saturn.gif; sourceTree = "<group>"; };
 		0419F00D1CA5BF51000993D7 /* moon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = moon.gif; sourceTree = "<group>"; };
 		0419F00F1CA5BF55000993D7 /* mercury.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mercury.gif; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		0403E6771C56B6A100E28F0E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0416E6821D259786001B50D7 /* stars2-2.gif */,
 				0419F0111CA5BF58000993D7 /* sun.gif */,
 				0419F00F1CA5BF55000993D7 /* mercury.gif */,
 				0419F0191CA5BFE9000993D7 /* Venus.gif */,
@@ -346,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0416E6831D259786001B50D7 /* stars2-2.gif in Resources */,
 				0419F01C1CA5BFED000993D7 /* Uranus.gif in Resources */,
 				04704FA31C2EC2C000D13F09 /* Main.storyboard in Resources */,
 				0419F0141CA5BF5D000993D7 /* neptune.gif in Resources */,
