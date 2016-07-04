@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor blackColor];
+ self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"space.jpg"]];
+    
     
     //creating the planets and other objects as buttons
     sun = [[SunView alloc] initWithFrame:CGRectMake(0, 0, 200, 170)];

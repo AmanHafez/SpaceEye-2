@@ -11,7 +11,6 @@
 		02D08C521CEFD40800FBC3E6 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C511CEFD40800FBC3E6 /* Planet.m */; };
 		02D08C561CEFD6B700FBC3E6 /* Satallite.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C551CEFD6B700FBC3E6 /* Satallite.m */; };
 		02D08C591CEFD8F000FBC3E6 /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C581CEFD8F000FBC3E6 /* Star.m */; };
-		0403E67A1C56B6C000E28F0E /* stars2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0403E6781C56B6C000E28F0E /* stars2.gif */; };
 		0403E6841C56D06A00E28F0E /* AsyncImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403E6831C56D06A00E28F0E /* AsyncImageview.m */; };
 		040AFA151C74F61A0066E7A5 /* Rotating_earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */; };
 		040AFA181C7507A80066E7A5 /* MarsandMoonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040AFA171C7507A80066E7A5 /* MarsandMoonsView.m */; };
@@ -66,7 +65,6 @@
 		02D08C551CEFD6B700FBC3E6 /* Satallite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Satallite.m; sourceTree = "<group>"; };
 		02D08C571CEFD8F000FBC3E6 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
 		02D08C581CEFD8F000FBC3E6 /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
-		0403E6781C56B6C000E28F0E /* stars2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stars2.gif; sourceTree = "<group>"; };
 		0403E6821C56D04F00E28F0E /* AsyncImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AsyncImageView.h; path = ../AsyncImageView.h; sourceTree = "<group>"; };
 		0403E6831C56D06A00E28F0E /* AsyncImageview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncImageview.m; path = ../AsyncImageview.m; sourceTree = "<group>"; };
 		040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rotating_earth.gif; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 				0419F01B1CA5BFED000993D7 /* Uranus.gif */,
 				0419F0131CA5BF5D000993D7 /* neptune.gif */,
 				040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */,
-				0403E6781C56B6C000E28F0E /* stars2.gif */,
 			);
 			name = Images;
 			path = SpaceEye;
@@ -360,7 +357,6 @@
 				0419F0181CA5BFA3000993D7 /* jupiter.gif in Resources */,
 				0419F00C1CA5BF4E000993D7 /* Saturn.gif in Resources */,
 				0419F00E1CA5BF51000993D7 /* moon.gif in Resources */,
-				0403E67A1C56B6C000E28F0E /* stars2.gif in Resources */,
 				04EC0A631C6C844E0046D1DD /* images.xcassets in Resources */,
 				0419F0121CA5BF58000993D7 /* sun.gif in Resources */,
 			);
