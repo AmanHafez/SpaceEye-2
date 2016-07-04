@@ -25,16 +25,16 @@
 
 {
     UIButton *sun;
-    UIButton *mercurry;
-    UIButton *venus;
-    UIButton *earth;
-    UIButton *mars;
-    UIButton *jupiter;
-    UIButton *saturn;
-    UIButton *uranus;
-    UIButton *neptune;
-    UIButton *pluto;
-    UIButton *comets;
+    UIView *mercurry;
+    UIView *venus;
+    UIView *earth;
+    UIView *mars;
+    UIView *jupiter;
+    UIView *saturn;
+    UIView *uranus;
+    UIView *neptune;
+    UIView *pluto;
+    UIView *comets;
     UIButton *Pause;
     UIButton *Resume;
     UIButton *Predict;

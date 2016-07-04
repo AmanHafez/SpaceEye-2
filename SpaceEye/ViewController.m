@@ -32,6 +32,8 @@
     //creating the planets and other objects as buttons
     sun = [[SunView alloc] initWithFrame:CGRectMake(0, 0, 25, 22)];
     sun.center = CGPointMake(self.view.frame.size.width/2-10, self.view.frame.size.height/2+5);
+    [sun addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
+
     [self.view addSubview:sun];
     
     
@@ -127,81 +129,18 @@
     [self.view addSubview:Predict];
 
     
-    //Differentiating between each planet when being pressed
-    sun.tag = 1;
-    mercurry.tag = 2;
-    venus.tag = 3;
-    earth.tag = 4;
-    mars.tag = 5;
-    jupiter.tag = 6;
-    saturn.tag = 7;
-    uranus.tag = 8;
-    neptune.tag = 9;
-    pluto.tag = 10;
-    
-    [sun addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [mercurry addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [venus addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [earth addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [mars addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [jupiter addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [saturn addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [uranus addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [neptune addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [pluto addTarget:self action:@selector(objectPressed:) forControlEvents:UIControlEventTouchUpInside];
+
     
 }
 
 -(void)objectPressed:(UIButton *)Sender
 {
-    if (Sender.tag == 1)
-    {
-        NSLog(@"this is the sun");
-    }
+
     
-    else if (Sender.tag == 2)
-    {
-        NSLog(@"this is the mercury");
-    }
-    
-    else if (Sender.tag == 3)
-    {
-        NSLog(@"this is the venus");
-    }
-    
-    else if (Sender.tag == 4)
-    {
-        NSLog(@"this is the earth");
-    }
-    
-    else if (Sender.tag == 5)
-    {
-        NSLog(@"this is the mars");
-    }
-    
-    else if (Sender.tag == 6)
-    {
-        NSLog(@"this is the jupiter");
-    }
-    
-    else if (Sender.tag == 7)
-    {
-        NSLog(@"this is the saturn");
-    }
-    
-    else if (Sender.tag == 8)
-    {
-        NSLog(@"this is the uranus");
-    }
-    else if (Sender.tag == 9)
-    {
-        NSLog(@"this is the neptune");
-    }
-    else if (Sender.tag == 10)
-    {
-        NSLog(@"this is the pluto");
-    }
-    
+    SeondViewController *SVC = [SeondViewController new];
+    [self.navigationController pushViewController:SVC animated:YES];
+
+    NSLog(@"This is the Sun!");
     
 }
 
