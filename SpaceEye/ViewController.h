@@ -35,12 +35,12 @@
     UIView *neptune;
     UIView *pluto;
     UIView *comets;
-    UIButton *Pause;
-    UIButton *Resume;
+    UIButton *PauseRes;
     UIButton *Predict;
         
 }
 
+@property (nonatomic) BOOL PauseResumeIsACTIVE;
 
 @end
 
