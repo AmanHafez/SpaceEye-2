@@ -12,7 +12,7 @@
 		02D08C561CEFD6B700FBC3E6 /* Satallite.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C551CEFD6B700FBC3E6 /* Satallite.m */; };
 		02D08C591CEFD8F000FBC3E6 /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C581CEFD8F000FBC3E6 /* Star.m */; };
 		0403E6841C56D06A00E28F0E /* AsyncImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403E6831C56D06A00E28F0E /* AsyncImageview.m */; };
-		040A4FFD1D44F9B9003F8127 /* DateTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A4FFC1D44F9B9003F8127 /* DateTimePicker.m */; };
+		040A50031D450167003F8127 /* DateTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A50021D450167003F8127 /* DateTimePicker.m */; };
 		040AFA151C74F61A0066E7A5 /* Rotating_earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */; };
 		040AFA181C7507A80066E7A5 /* MarsandMoonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040AFA171C7507A80066E7A5 /* MarsandMoonsView.m */; };
 		0419F00C1CA5BF4E000993D7 /* Saturn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0419F00B1CA5BF4E000993D7 /* Saturn.gif */; };
@@ -68,8 +68,8 @@
 		02D08C581CEFD8F000FBC3E6 /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
 		0403E6821C56D04F00E28F0E /* AsyncImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AsyncImageView.h; path = ../AsyncImageView.h; sourceTree = "<group>"; };
 		0403E6831C56D06A00E28F0E /* AsyncImageview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncImageview.m; path = ../AsyncImageview.m; sourceTree = "<group>"; };
-		040A4FFB1D44F9B9003F8127 /* DateTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateTimePicker.h; path = "../../Downloads/CustomDatePicker-master/CustomDateTimePicker/DateTimePicker.h"; sourceTree = "<group>"; };
-		040A4FFC1D44F9B9003F8127 /* DateTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateTimePicker.m; path = "../../Downloads/CustomDatePicker-master/CustomDateTimePicker/DateTimePicker.m"; sourceTree = "<group>"; };
+		040A50011D450167003F8127 /* DateTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimePicker.h; sourceTree = "<group>"; };
+		040A50021D450167003F8127 /* DateTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimePicker.m; sourceTree = "<group>"; };
 		040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rotating_earth.gif; sourceTree = "<group>"; };
 		040AFA161C7507A80066E7A5 /* MarsandMoonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsandMoonsView.h; sourceTree = "<group>"; };
 		040AFA171C7507A80066E7A5 /* MarsandMoonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsandMoonsView.m; sourceTree = "<group>"; };
@@ -183,8 +183,8 @@
 				0419F0211CA5EC2B000993D7 /* FLAnimatedImageView.m */,
 				0419F01D1CA5EB22000993D7 /* FLAnimatedImage.h */,
 				0419F01E1CA5EB22000993D7 /* FLAnimatedImage.m */,
-				040A4FFB1D44F9B9003F8127 /* DateTimePicker.h */,
-				040A4FFC1D44F9B9003F8127 /* DateTimePicker.m */,
+				040A50011D450167003F8127 /* DateTimePicker.h */,
+				040A50021D450167003F8127 /* DateTimePicker.m */,
 				0403E6771C56B6A100E28F0E /* Images */,
 				041E9C8A1C7DD42200B00067 /* SunView.h */,
 				041E9C8B1C7DD42200B00067 /* SunView.m */,
@@ -396,7 +396,7 @@
 				041E9C951C7DE51800B00067 /* JupiterView.m in Sources */,
 				041E9C891C7DCD6E00B00067 /* EarthandMoonView.m in Sources */,
 				04704F9D1C2EC2C000D13F09 /* AppDelegate.m in Sources */,
-				040A4FFD1D44F9B9003F8127 /* DateTimePicker.m in Sources */,
+				040A50031D450167003F8127 /* DateTimePicker.m in Sources */,
 				041E9CA11C7DE6A500B00067 /* PlutoView.m in Sources */,
 				041E9C9B1C7DE62000B00067 /* UranusView.m in Sources */,
 				04704F9A1C2EC2C000D13F09 /* main.m in Sources */,
