@@ -19,6 +19,7 @@
 #import "PlutoView.h"
 #import "FLAnimatedImageView.h"
 #import "FLAnimatedImage.h"
+#import "DateTimePicker.h"
 #import "SeondViewController.h"
 
 @interface ViewController : UIViewController
@@ -37,10 +38,18 @@
     UIView *comets;
     UIButton *PauseRes;
     UIButton *Predict;
-        
+    DateTimePicker *picker;
+
+    
 }
 
 @property (nonatomic) BOOL PauseResumeIsACTIVE;
+@property (nonatomic, strong)UIDatePicker *mydatepicker;
+@property (nonatomic, strong)NSArray *x;
+@property (nonatomic, strong)NSArray *y;
+@property (nonatomic, strong)NSArray *PlanetName;
+@property (nonatomic, strong)NSDictionary *XPosition;
+@property (nonatomic, strong)NSDictionary *YPosition;
 
 @end
 

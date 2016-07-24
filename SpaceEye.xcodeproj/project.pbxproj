@@ -12,9 +12,9 @@
 		02D08C561CEFD6B700FBC3E6 /* Satallite.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C551CEFD6B700FBC3E6 /* Satallite.m */; };
 		02D08C591CEFD8F000FBC3E6 /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D08C581CEFD8F000FBC3E6 /* Star.m */; };
 		0403E6841C56D06A00E28F0E /* AsyncImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403E6831C56D06A00E28F0E /* AsyncImageview.m */; };
+		040A4FFD1D44F9B9003F8127 /* DateTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A4FFC1D44F9B9003F8127 /* DateTimePicker.m */; };
 		040AFA151C74F61A0066E7A5 /* Rotating_earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */; };
 		040AFA181C7507A80066E7A5 /* MarsandMoonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040AFA171C7507A80066E7A5 /* MarsandMoonsView.m */; };
-		0416E6831D259786001B50D7 /* stars2-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0416E6821D259786001B50D7 /* stars2-2.gif */; };
 		0419F00C1CA5BF4E000993D7 /* Saturn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0419F00B1CA5BF4E000993D7 /* Saturn.gif */; };
 		0419F00E1CA5BF51000993D7 /* moon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0419F00D1CA5BF51000993D7 /* moon.gif */; };
 		0419F0101CA5BF55000993D7 /* mercury.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0419F00F1CA5BF55000993D7 /* mercury.gif */; };
@@ -36,6 +36,7 @@
 		041E9C9B1C7DE62000B00067 /* UranusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9C9A1C7DE62000B00067 /* UranusView.m */; };
 		041E9C9E1C7DE66500B00067 /* NeptuneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9C9D1C7DE66500B00067 /* NeptuneView.m */; };
 		041E9CA11C7DE6A500B00067 /* PlutoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E9CA01C7DE6A500B00067 /* PlutoView.m */; };
+		045F5D551D376C6300459920 /* stars2-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 045F5D541D376C6300459920 /* stars2-2.gif */; };
 		046753CB1D18626200594118 /* SeondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046753CA1D18626200594118 /* SeondViewController.m */; };
 		046754101D19697900594118 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467540F1D19697900594118 /* ThirdViewController.m */; };
 		04704F9A1C2EC2C000D13F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04704F991C2EC2C000D13F09 /* main.m */; };
@@ -67,10 +68,11 @@
 		02D08C581CEFD8F000FBC3E6 /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
 		0403E6821C56D04F00E28F0E /* AsyncImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AsyncImageView.h; path = ../AsyncImageView.h; sourceTree = "<group>"; };
 		0403E6831C56D06A00E28F0E /* AsyncImageview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncImageview.m; path = ../AsyncImageview.m; sourceTree = "<group>"; };
+		040A4FFB1D44F9B9003F8127 /* DateTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateTimePicker.h; path = "../../Downloads/CustomDatePicker-master/CustomDateTimePicker/DateTimePicker.h"; sourceTree = "<group>"; };
+		040A4FFC1D44F9B9003F8127 /* DateTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateTimePicker.m; path = "../../Downloads/CustomDatePicker-master/CustomDateTimePicker/DateTimePicker.m"; sourceTree = "<group>"; };
 		040AFA141C74F61A0066E7A5 /* Rotating_earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rotating_earth.gif; sourceTree = "<group>"; };
 		040AFA161C7507A80066E7A5 /* MarsandMoonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsandMoonsView.h; sourceTree = "<group>"; };
 		040AFA171C7507A80066E7A5 /* MarsandMoonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsandMoonsView.m; sourceTree = "<group>"; };
-		0416E6821D259786001B50D7 /* stars2-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "stars2-2.gif"; path = "../../stars2-2.gif"; sourceTree = "<group>"; };
 		0419F00B1CA5BF4E000993D7 /* Saturn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Saturn.gif; sourceTree = "<group>"; };
 		0419F00D1CA5BF51000993D7 /* moon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = moon.gif; sourceTree = "<group>"; };
 		0419F00F1CA5BF55000993D7 /* mercury.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mercury.gif; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		041E9C9D1C7DE66500B00067 /* NeptuneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeptuneView.m; sourceTree = "<group>"; };
 		041E9C9F1C7DE6A500B00067 /* PlutoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlutoView.h; sourceTree = "<group>"; };
 		041E9CA01C7DE6A500B00067 /* PlutoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlutoView.m; sourceTree = "<group>"; };
+		045F5D541D376C6300459920 /* stars2-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "stars2-2.gif"; sourceTree = "<group>"; };
 		046753C91D18626200594118 /* SeondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeondViewController.h; sourceTree = "<group>"; };
 		046753CA1D18626200594118 /* SeondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeondViewController.m; sourceTree = "<group>"; };
 		0467540E1D19697900594118 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
@@ -156,7 +159,7 @@
 		0403E6771C56B6A100E28F0E /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				0416E6821D259786001B50D7 /* stars2-2.gif */,
+				045F5D541D376C6300459920 /* stars2-2.gif */,
 				0419F0111CA5BF58000993D7 /* sun.gif */,
 				0419F00F1CA5BF55000993D7 /* mercury.gif */,
 				0419F0191CA5BFE9000993D7 /* Venus.gif */,
@@ -180,6 +183,8 @@
 				0419F0211CA5EC2B000993D7 /* FLAnimatedImageView.m */,
 				0419F01D1CA5EB22000993D7 /* FLAnimatedImage.h */,
 				0419F01E1CA5EB22000993D7 /* FLAnimatedImage.m */,
+				040A4FFB1D44F9B9003F8127 /* DateTimePicker.h */,
+				040A4FFC1D44F9B9003F8127 /* DateTimePicker.m */,
 				0403E6771C56B6A100E28F0E /* Images */,
 				041E9C8A1C7DD42200B00067 /* SunView.h */,
 				041E9C8B1C7DD42200B00067 /* SunView.m */,
@@ -346,12 +351,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0416E6831D259786001B50D7 /* stars2-2.gif in Resources */,
 				0419F01C1CA5BFED000993D7 /* Uranus.gif in Resources */,
 				04704FA31C2EC2C000D13F09 /* Main.storyboard in Resources */,
 				0419F0141CA5BF5D000993D7 /* neptune.gif in Resources */,
 				0419F01A1CA5BFE9000993D7 /* Venus.gif in Resources */,
 				0419F0161CA5BF9F000993D7 /* mars.gif in Resources */,
+				045F5D551D376C6300459920 /* stars2-2.gif in Resources */,
 				040AFA151C74F61A0066E7A5 /* Rotating_earth.gif in Resources */,
 				0419F0101CA5BF55000993D7 /* mercury.gif in Resources */,
 				0419F0181CA5BFA3000993D7 /* jupiter.gif in Resources */,
@@ -391,6 +396,7 @@
 				041E9C951C7DE51800B00067 /* JupiterView.m in Sources */,
 				041E9C891C7DCD6E00B00067 /* EarthandMoonView.m in Sources */,
 				04704F9D1C2EC2C000D13F09 /* AppDelegate.m in Sources */,
+				040A4FFD1D44F9B9003F8127 /* DateTimePicker.m in Sources */,
 				041E9CA11C7DE6A500B00067 /* PlutoView.m in Sources */,
 				041E9C9B1C7DE62000B00067 /* UranusView.m in Sources */,
 				04704F9A1C2EC2C000D13F09 /* main.m in Sources */,
